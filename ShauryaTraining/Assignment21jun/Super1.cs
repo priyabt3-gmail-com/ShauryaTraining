@@ -4,14 +4,14 @@ using System.Text;
 
 namespace ShauryaTraining.Assignment21jun
 {
-    class Class1
+    class Super1
     {
         public virtual void show()
         {
             Console.WriteLine("Super class show method");
         }
     }
-    class Class2 : Class1
+    class Sub1 : Super1
     {
         public override void show()
 
@@ -23,7 +23,7 @@ namespace ShauryaTraining.Assignment21jun
     
         static void Main(string[] args)
         {
-            Class2 obj = new Class2();
+            Sub1 obj = new Sub1();
             obj.show();
             Console.ReadKey();
         }

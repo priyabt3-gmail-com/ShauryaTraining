@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>ShauryaTraining.Assignment21jun.Account</StartupObject>
+    <StartupObject>ShauryaTraining.Day7.ClassFindAllMethod</StartupObject>
   </PropertyGroup>
 
 </Project>
